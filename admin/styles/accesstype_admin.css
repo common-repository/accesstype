@@ -1,0 +1,182 @@
+:root {
+  --main-border-color: #e5e5e5;
+  --side-menu-padding-left: 24px;
+  --inactive-tab-color: #666666;
+  --active-tab-color: #232323;
+  --white-color: #ffffff;
+  --btn-primary-color: #36a3ca;
+}
+
+.accestype-82816 *,
+.accestype-82816 *::before ,
+.accestype-82816 *::after {
+  box-sizing: border-box;
+}
+
+.accestype-82816, .accesstype-visibility-wrapper {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.accesstype-admin-wrapper {
+  max-width: 1140px;
+}
+.accesstype-title {
+  color: var(--active-tab-color);
+  font-size: 23px;
+  font-weight: 600;
+}
+.accesstype-settings-container {
+  background-color: var(--white-color);
+  border: 1px solid var(--main-border-color);
+}
+
+.accesstype-tabcontent {
+  display: none;
+  max-width: 1140px;
+  padding: 20px 0 0 20px;
+}
+
+.accesstype-tab {
+  display: flex;
+  border-bottom: 1px solid var(--main-border-color);
+  padding-left: var(--side-menu-padding-left);
+}
+
+.accesstype-tab div:not(:last-child) {
+  margin-right: 30px;
+}
+
+.accesstype-tablinks {
+  color: var(--inactive-tab-color);
+  padding: 16px 0;
+  cursor: pointer;
+}
+
+.accesstype-tablinks.active {
+  color: var(--active-tab-color);
+  border-bottom: 4px solid var(--inactive-tab-color);
+}
+
+.accesstype-visibility {
+  width: -webkit-fill-available;
+  text-transform: capitalize;
+}
+
+.accesstype-mt-10 {
+  margin-top: 10px;
+}
+
+.accesstype-notice {
+  font-style: italic;
+}
+
+.accesstype-connect .accesstype-connect-message {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;  
+}
+
+.accesstype-admin-container__input .input-label {
+  font-size: 16px;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--active-tab-color);
+}
+
+.accesstype-admin-container__input .accesstype-settings-input {
+  width: 40%;
+  height: 40px;
+  border: 1px solid var(--main-border-color);
+  color: var(--active-tab-color);
+}
+
+.accesstype-configure-container .accesstype-settings-input {
+  width: 299px;
+  height: 40px;
+  border: 1px solid var(--main-border-color);
+  color: var(--active-tab-color);
+}
+
+.accesstype-configure-container th {
+  font-size: 16px;
+  line-height: 51px;
+  color: var(--active-tab-color);
+  width: 40%;
+  text-align: left;
+}
+
+.accesstype-configure-container {
+  width: 90%;
+}
+
+.accesstype-detail-documentation {
+  font-size: 16px;
+}
+
+.accesstype-detail-documentation .accesstype-documentation-link {
+  text-decoration: none;
+  color: var(--btn-primary-color);
+}
+
+.accesstype-submit-button {
+  background-color: var(--btn-primary-color) !important;
+  color: #f9f9f9 !important;
+  font-size: 13px;
+}
+
+.accesstype-basic-settings {
+  display: block;
+}
+
+.list-style-lower-alpha {
+  list-style-type: lower-alpha;
+}
+
+.help-heading {
+  padding: 5px 0px;
+}
+
+.accesstype-additional-settings {
+  border-top: 1px solid var(--main-border-color);
+  border-bottom: 1px solid var(--main-border-color);
+  margin: 10px 0px;
+  padding: 20px 0px;
+}
+
+.accesstype-additional-settings-text {
+  font-size: 16px;
+  color: var(--btn-primary-color);
+  font-weight: bolder;
+}
+
+.accesstype-collapse-icon-up, .accesstype-collapse-icon-down {
+  display: inline;
+}
+
+.accesstype-arrow {
+  border: solid var(--btn-primary-color);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.accesstype-up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.accesstype-down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.accesstype-hidden{
+  display: none;
+}
+
+.accesstype-arrows{
+  display: inline;
+  margin: 5px;
+}
